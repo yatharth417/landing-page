@@ -1,13 +1,62 @@
-.container{
+body{
+    font-family: Arial, sans-serif;
+}
+.section1{
     background-color: rgb(56, 57, 84);
     color: white;
-    margin: 10px;
     padding: 10px;
-    font-family: Arial, sans-serif;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+}
+.link{
+    font-size: smaller;
+}
+.section2{
+    text-align: center;
+    margin-top: 20px;
+}
+.info{
+    margin-bottom: 20px;
+}
+.texts{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.text{
+    font-size: 8px;
+    margin-top: 60px;
+}
+.section3{
+    background-color: rgb(187, 180, 180);
+}
+.quote{
+    font-size: small;
+    padding: 3rem;
+    margin-top: 3rem;
+    font-style: italic;
+}
+.quote .by{
+    text-align: right;
+}
+.section4{
+    margin: 3rem;
+    background-color: rgb(57, 57, 228);
+    color: white;
+    padding: 2rem;
+    display: flex;
+}
+.signup{
+    font-size: small;
+}
+.signup .msg{
+    font-weight: bold;
+}
+.section4 p{
+    font-size: xx-small;
+    font-weight: lighter;
 }
